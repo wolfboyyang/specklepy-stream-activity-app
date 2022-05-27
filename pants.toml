@@ -11,7 +11,8 @@ root_patterns = [
   '/src/python',
 ]
 
-
+[python]
+interpreter_constraints = ["CPython==3.9.*"]
 
 [anonymous-telemetry]
 enabled = true
